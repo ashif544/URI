@@ -1,0 +1,15 @@
+package URI;
+
+import java.util.Scanner;
+
+public class Sphere {
+
+    public static void main(String[] args) {
+         Scanner input = new Scanner(System.in);
+      double VOLUME=0, pi =3.14159;
+       int R=input.nextInt();
+    VOLUME= 4.0/3 * pi * R*R*R;
+        System.out.printf("VOLUME = %.3f\n",VOLUME);
+    }
+    
+}
