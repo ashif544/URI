@@ -1,0 +1,20 @@
+
+package Bonus;
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+   String name;
+   double Salary =0,Bonus,TOTAL,Sold;
+   Scanner input =new Scanner(System.in);
+        name=input.nextLine();
+        Salary=input.nextFloat();
+        Sold=input.nextFloat();
+        Bonus=Sold/100*15;
+        TOTAL=Salary+Bonus;
+        System.out.printf("TOTAL = R$ %.2f\n",TOTAL);
+    }
+    
+}
